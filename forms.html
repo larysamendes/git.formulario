@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset='UTF-8'>
+        <title> Formulário </title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </html>
+    <body  >
+        <header>
+
+        </header>
+
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="forms.html">Dados</a></li>
+                    <li><a href="table.html">Tabela</a></li>
+                </ul>
+            </nav>
+            <form>
+                <div class="a1">
+                    <h2>DADOS DO USUÁRIO</h2>
+                    <label for="nome">Nome Completo: </label>
+                    <input type="text" name="nome" id="nome" class="input-padrao" required>
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" class="input-padrao" required placeholder="nome@dominio.com">
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" name="telefone" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" class="input-padrao">
+                    <fieldset>
+                        <legend>Sexo:</legend>
+                        <label for="radio-feminino">
+                            <input type="radio" name="sexo" id="radio-feminino value="feminino">
+                            Feminino
+                        </label>
+                        <label for="radio-email">
+                            <input type="radio" name="sexo" id="radio-masculino" value="masculino">
+                            Masculino
+                        </label>
+                    </fieldset>
+                    <label for="nascimento">Data e hora de nascimento:</label>
+                    <input type="datetime-local" id="nascimento" name="nascimento">
+                    <label for="UF">UF de nascimento:</label>
+                    <select name="UF" id="UF" class="input-padrao">
+                        <option value="manha"> Manhã</option>
+                        <option value="tarde"> Tarde</option>
+                        <option value="noite"> Noite</option>
+                    </select>
+                    <label for="favcor">Selecione sua cor favorita:</label>
+                    <input type="color" id="favcor" name="favcor">
+                    <label for="data">Data favorita:</label>
+                    <input type="date" id="data" name="data">
+                    <label for="hora">Que horas costuma acordar:</label>
+                    <input type="time" id="hora" name="hora">
+                    <label for="quant">Quantas pessoas tem a sua família:</label>
+                    <input type="number" id="quant" name="quant" class="input-padrao">
+                    <label for="URL">Adicione a URL do seu perfil na rede social:</label>
+                    <input type="url" id="URL" name="URL" class="input-padrao">
+                </div>
+                <div class="a2">
+                    <label>
+                        Preferências musicais?
+                        <input type="checkbox" name="checkbox" id="checkbox" value="rock" >
+                        <label for="checkbox"> Rock</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" value="sertanejo">
+                        <label for="checkbox"> Sertanejo</label>
+                        <input type="checkbox" name="checkbox" id="checkbox" value="pagode">
+                        <label for="checkbox"> Pagode</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" value="samba">
+                        <label for="checkbox"> Samba</label>
+                        <input type="checkbox" name="checkbox" id="checkbox" value="funk">
+                        <label for="checkbox"> Funk</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" value="raggae">
+                        <label for="checkbox"> Reggae</label>
+                        <input type="checkbox" name="checkbox" id="checkbox" value="pop">
+                        <label for="checkbox"> Pop</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" value="forro">
+                        <label for="checkbox"> Forró</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" value="indie">
+                        <label for="checkbox"> Indie</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" value="gospel">
+                        <label for="checkbox"> Gospel</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" value="mpb">
+                        <label for="checkbox"> MPB</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" value="jazz">
+                        <label for="checkbox"> Jazz</label>
+                    </label>
+                </div>
+                </br>
+                </br>
+                <div class="a1">
+                    <label for="arq">Envie uma foto de perfil:</label>
+                    <input type="file" id="arq" name="arq">
+                    </br>
+                    <label for="mensagem"> Mande uma mensagem:</label>
+                    <textarea cols="40" rows="10" id="mensagem" class="input-padrao"></textarea>
+                    <input type="submit" name="enviar" value="Enviar" class="botao">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+
+        </footer>
+    
+    </body>
+</html>

@@ -1,0 +1,54 @@
+
+form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: aqua;
+}
+.a1 label {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.a2 label {
+    margin: 0 0 30px;
+    font-size: 20px;
+}
+
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+    border-color: aqua;
+    box-sizing: border-box;
+}
+
+.botao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+    border-color: black;
+    box-sizing: border-box;
+    background: aqua;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: white;
+    color: aqua
+}
+
+div {
+    display: inline;
+    margin-right: 30;
+}
