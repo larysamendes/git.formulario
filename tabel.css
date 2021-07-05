@@ -29,54 +29,36 @@ nav a {
 nav a:hover {
     color: rgb(17, 17, 182)
 }
-form {
+table {
     width: 600px;
-    margin: 0 auto;
+    margin: 50px 60px 70px;
 }
 
-form h2 {
+table, th, td {
+    border: 1px solid aqua;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
     text-align: center;
-    color: black;
 }
-.a1 label {
-    display: block;
+
+table {
+    border-spacing: 5px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+caption{
+    color: aqua;
+    font-size: 40px;
     margin: 0 0 10px;
-    font-size: 20px;
-}
-
-.a2 label {
-    margin: 0 0 30px;
-    font-size: 20px;
-}
-
-
-.input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 100%;
-    border-color: aqua;
-    box-sizing: border-box;
-}
-
-.botao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 100%;
-    border-color: black;
-    box-sizing: border-box;
-    background: aqua;
-    color: black;
-    font-size: 20px;
     font-weight: bold;
 }
-
-.botao:hover {
-    background: white;
-    color: aqua
-}
-
 div {
     display: inline;
     margin-right: 30;
